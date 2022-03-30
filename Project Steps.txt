@@ -1,0 +1,9 @@
+Step one: Create a react Project
+Step two: Install ES7+ React/Redux/React-Native snippets for visual Studio Code
+Step three: Delete all things in the Public and Src Folder, and also the assest subfolder
+Step four: Create App.jsx, index.jsx and index.js in src
+Step five: Create the index.html 
+step Six: create componets for all page sections (ie The Componet.jsx and component.css)
+Step Seven: For each of the componet file use the racfe Snippet and then import the componet css
+Step Eight: Decalare all the compontets in the App.jsx file in a react fragment
+Step Nine: Import all Componets in App.jsx
