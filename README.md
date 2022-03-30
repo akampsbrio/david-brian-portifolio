@@ -1,8 +1,8 @@
 # david-brian-portifolio
- This is my personal website built with React
- It contains the following
-    - useState Hook
-    - React Icons
-    - CSS 3
-    - Email JS 
+ This is my personal website built with React<br />
+ It contains the following<br />
+    - useState Hook<br />
+    - React Icons<br />
+    - CSS 3<br />
+    - Email JS <br />
     - Swiper JS
