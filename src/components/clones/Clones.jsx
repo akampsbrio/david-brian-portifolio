@@ -1,5 +1,6 @@
 import React from 'react'
-import './portfolio.css'
+import './clones.css'
+import {FaGithub} from 'react-icons/fa'
 import SOMA from '../../assets/portifolio/1.png'
 import _123WRITING from '../../assets/portifolio/2.png'
 import NMA from '../../assets/portifolio/3.png'
@@ -16,7 +17,7 @@ const data = [
   {
     id: 1,
     image: SOMA,
-    title: 'SOMA ANDROID & WEB APP (5000 Installs)',
+    title: 'SOMA ANDROID & WEB APP',
     link: 'https://play.google.com/store/apps/details?id=soma.ug&hl=en&gl=US'
   },
   {
@@ -76,31 +77,35 @@ const data = [
   
 ]
 
-const Portfolio = () => {
+const Clones = () => {
   return (
-    <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portifolio</h2>
+    <section id="clone">
+      <h5>My Clones</h5>
+      <h2>Clones and Github</h2>
+      <br/>
+      <br/>
+      <h2>Coming Soon</h2>
 
-      <div className="container portfolio__container">
-        {
+      <div className="container clone__container">
+        {/*{
           data.map((data) => {
             return(
-                <article key={data.id} className="portfolio__item">
-                  <div className="portfolio__item-image">
+                <article key={data.id} className="clone__item">
+                  <div className="clone__item-image">
                     <img src={data.image} alt={data.title}/>
                   </div>
                   <h3>{data.title}</h3>
-                  <div className="portfolio__item-cta">
-                    <a href={data.link} className="btn btn-primary" target="_blank">View Project</a>
+                  <div className="clone__item-cta">
+                    <a href={data.link} className="btn btn-primary" target="_blank"><FaGithub/> Github</a>
                   </div>
                 </article>
               )
           })
-        }
+        }*/}
+
       </div>
     </section>  
   )
 }
 
-export default Portfolio
+export default Clones

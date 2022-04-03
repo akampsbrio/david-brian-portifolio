@@ -1,11 +1,11 @@
-.portfolio__container
+.clone__container
 {
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 	gap: 2.5rem;
 }
 
-.portfolio__item
+.clone__item
 {
 	background: var(--color-bg-variant);
 	padding: 1.3rem;
@@ -14,25 +14,25 @@
 	transition: var(--transition);
 }
 
-.portfolio__item:hover
+.clone__item:hover
 {
 	border-color: var(--color-primary-variant);
 	background: transparent;
 }
 
-.portfolio__item-image
+.clone__item-image
 {
 	border-radius: 1.5rem;
 	overflow: hidden;
 }
 
-.portfolio__item h3
+.clone__item h3
 {
 	margin: 1.2rem 0 2rem;
 	text-align: center;
 }
 
-.portfolio__item-cta
+.clone__item-cta
 {
 	display: flex;
 	gap: 1rem;
@@ -45,7 +45,7 @@
 /*=================== TABLETS =============================*/
 @media screen and (max-width: 1024px)
 {
-   .portfolio__container
+   .clone__container
    {
    	grid-template-columns: 1fr 1fr;
    	gap: 1.2rem;
@@ -56,7 +56,7 @@
 /*=================== MEDIA SMALL DEVICES =============================*/
 @media screen and (max-width: 600px)
 {
-    .portfolio__container
+    .clone__container
     {
     	grid-template-columns: 1fr;
     	gap: 1rem;
