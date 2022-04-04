@@ -1,5 +1,6 @@
 {
   "name": "david-brian-portifolio",
+  "homepage":"https://david-brian.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
